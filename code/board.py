@@ -32,14 +32,14 @@ class MinesBoard(object):
         self.neighbors_dictionary = self.neighbors_dic()
 
 
-    ## printing the grid in a nice format
+    ## printing the grid in readable format
     def printGrid(self):
         for x in range(self.width):
             for y in range(self.height):
                 print("{}  ".format(self.matrix[x][y].visible), end=""),
             print("")
 
-    ## printing the grid in a nice format
+    ## printing the grid in readable format
     def printGrid2(self):
         for x in range(self.width):
             for y in range(self.height):

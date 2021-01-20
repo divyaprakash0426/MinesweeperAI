@@ -17,7 +17,7 @@ game = MinesBoard(dim,dim, mines)
 # print("\n Mines Matrix \n")
 # printGrid(game.matrix, dim, dim, 'status')
 
-print("\n Mines and it is surroundings \n")
+print("\n Mines and surroundings \n")
 printGrid(game.matrix, dim, dim, 'value')
 # printGrid(game.matrix, dim, dim, 'isVisited')
 
