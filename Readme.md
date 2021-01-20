@@ -8,7 +8,7 @@ The representation is a 2D array of squares, with each square storing several fi
 *​Check if a cell is opened or not.​*  
 3. **flagged = False**   
 *Is the cell marked or not?.​*  
-4. **visible= "-"**  ​
+4. **visible= "-"**  ​  
 *Initially all cells are blocked.*  
 5. **​value = 0**  
 *​The value inside the cells; 1 - 8 provides the clue information​For the neighbours which have mines or 9 if it is a mine.*
